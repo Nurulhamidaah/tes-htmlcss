@@ -1,0 +1,23 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    background-color: blue;
+}
+.wraper{
+    display: flex;
+    width: 545%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+@media(max-width: 800px)
+{
+    .wraper{
+        width: 360;
+    }
+}
+@media (max-width:500px) {
+    .wraper{
+        width: 165px;
+    }
+}
